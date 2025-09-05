@@ -51,4 +51,8 @@ Set-Cookie: msToken=qHrtfnBX4mzuCvPaqSxSFlT439KDw6VxMzcV8nBxCFMUy_UURfDaKo9ZjC5l
 ``
 
 # 同一二维码对比两次请求接口 ，主要不同参数为  msToken  X-Bogus X-Gnarly
+![img_6.png](img_6.png)
+
+> 利用对比工具定位两个数据位置不同 https://pastelsky.github.io/curldiff/ 同一接口两次请求参数头不一致。
+x-mssdk-info : 定位加密函数位置
 
